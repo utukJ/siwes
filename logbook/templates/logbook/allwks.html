@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ALL</title>
+    </head>
+    <body>
+        <h1>All weeks for {{ matric }}</h1>
+        {% for wk in wks %}
+            <a href="{{ wk.week_num }}/editwk">Week {{ wk.week_num }}</a><br>
+        {% endfor %}
+    </body>
+</html>

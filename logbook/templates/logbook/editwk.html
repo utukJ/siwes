@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Edit</title>
+    </head>
+    <body>
+        <h1>This is log page for week {{ wk.week_num }}, ID: {{ matric }}</h1>
+        <form action="editwk/update" method="POST">
+            {% csrf_token %}
+            <label for="d1">Monday:</label><br>
+            <textarea id="d1" name="d1" rows=4 cols=50>{{ wk.d1 }}</textarea><br>
+            <label for="d2">Tuesday:</label><br>
+            <textarea id="d2" name="d2" rows=4 cols=50>{{ wk.d2 }}</textarea><br>
+            <label for="d3">Wednesday:</label><br>
+            <textarea id="d3" name="d3" rows=4 cols=50>{{ wk.d3 }}</textarea><br>
+            <label for="d4">Thursday:</label><br>
+            <textarea id="d4" name="d4" rows=4 cols=50>{{ wk.d4 }}</textarea><br>
+            <label for="d5">Friday:</label><br>
+            <textarea id="d5" name="d5" rows=4 cols=50>{{ wk.d5 }}</textarea><br>
+            <input type="submit" value="SAVE">
+        </form><br>
+        <a href="/{{ matric }}/allwks">Return to weeks</a>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Edit</title>
+    </head>
+    <body>
+        <h1>This is log page for week {{ wk.week_num }}, ID: {{ matric }}</h1>
+        <form action="editwk/update" method="POST">
+            {% csrf_token %}
+            <label 
+        </form><br>
+        <a href="/{{ matric }}/allwks">Return to weeks</a>
+    </body>
+</html>

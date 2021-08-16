@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import Workday, Workweek
+from .models import Workweek, Student
 
 # Register your models here.
 
 admin.site.register(Workweek)
-admin.site.register(Workday)
+admin.site.register(Student)

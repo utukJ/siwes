@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Index</title>
+    </head>
+    <body>
+        <h1>New student with id: {{ matric }}</h1>
+        <form action="{{ matric }}/new">
+            <label for="matric">Enter school id:</label><br>
+            <input type="text" id="matric" name="matric" value="{{ matric }}">
+            <input type="date" id="startdate" name="startdate">
+            <input type="submit">
+        </form>
+    </body>
+</html>
